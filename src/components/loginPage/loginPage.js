@@ -1,17 +1,16 @@
 import s from "./loginPage.module.css";
-import VkIcon from "../../images/vk.svg";
 export default function LoginPage() {
   return (
     <>
       <div className={s.loginPageContainer}>
-        <div>
-          <h1>Profile</h1>
+        <div className={s.loginContainer}>
+          <h1 className={s.profileStyles}>Profile</h1>
           <nav>
-            <ul>
-              <li>
-                <a href="">Registration</a>
+            <ul className={s.registration}>
+              <li className={s.registrationItemActive}>
+                <a href="link.to.the.star">Registration</a>
               </li>
-              <li>
+              <li className={s.registrationItem}>
                 <a href="./portfolio.html">Sign in</a>
               </li>
             </ul>
@@ -19,7 +18,7 @@ export default function LoginPage() {
         </div>
         {/* options to sign-up */}
         <div className={s.signContainer}>
-          <span>You can sign in with social</span>
+          <span className={s.signUpOptions}>You can sign in with social</span>
           <ul className={s.links}>
             <li>
               <a className={s.linkSocial} href="https://vk.com/">
@@ -34,9 +33,6 @@ export default function LoginPage() {
                     fill="#627DA1"
                   />
                 </svg>
-                {/* <svg className={s.linkIcon}>
-                  <use href={VkIcon}></use>
-                </svg> */}
               </a>
             </li>
             <li>
@@ -83,25 +79,37 @@ export default function LoginPage() {
             </li>
           </ul>
         </div>
-        <form className={s.formContainer}>
-          <label>
-            <input placeholder="Your name"></input>
-          </label>
-          <label>
-            <input placeholder="E-mail"></input>
-          </label>
-          <label>
-            <input placeholder="Phone"></input>
-          </label>
-          <label className={s.checkBoxContainer}>
-            <input className={s.checkbox} type="checkbox" value="check" />
-            <span className={s.checkboxIcon}></span>I accept the terms of the
-            offer of{" "}
-            <a className={s.privacy} href="">
-              the privacy policy
-            </a>
-          </label>
-        </form>
+        {/* Form */}
+        <div className={s.formSection}>
+          <form className={s.formContainer}>
+            <label>
+              <input className={s.inputStyles} placeholder="Your name"></input>
+            </label>
+            <label>
+              <input className={s.inputStyles} placeholder="E-mail"></input>
+            </label>
+            <label>
+              <input className={s.inputStyles} placeholder="Phone"></input>
+            </label>
+            <label className={s.checkBoxContainer}>
+              <input className={s.checkbox} type="checkbox" value="check" />
+              <span className={s.checkboxIcon}></span>I accept the terms of the
+              offer of{" "}
+              <a className={s.privacy} href="link.to.the.moon">
+                {" "}
+                the privacy policy
+              </a>
+            </label>
+            <div className={s.buttonContainer}>
+              <button className={s.registrationButton} type="submit">
+                Registration
+              </button>
+              <button className={s.signInButton} type="button">
+                Sign in
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </>
   );
