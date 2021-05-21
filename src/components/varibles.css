@@ -1,0 +1,14 @@
+:root {
+  /*COLORS*/
+  --primary-text-color: #000000;
+  --secondary-text-color: #111111 48 %;
+  --secondary-black-color: #111111;
+  --violete-color: #6e41e2;
+  --white-color: #ffffff;
+  --primary-bg-color: #f2f2f2;
+
+  /*BREAKPOINTS*/
+  --desktop: 1280px;
+  --tablet: 768px;
+  --mobile: 320px;
+}
