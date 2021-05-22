@@ -1,0 +1,137 @@
+.searchContainer {
+  margin-top: 40px;
+}
+.searchHeader {
+  margin-bottom: 12px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+}
+.searchExplain {
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  width: 100%;
+}
+.inputStyles {
+  padding: 16px;
+  padding-left: 44px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04),
+    0px 4px 16px rgba(51, 51, 51, 0.08);
+  border: 0px solid transparent;
+  border-radius: 4px;
+  width: 100%;
+  color: rgba(17, 17, 17, 0.48);
+}
+.inputStyles:not(:last-child) {
+  margin-right: 20px;
+}
+.inputStylesCountry {
+  padding: 16px;
+  padding-left: 16px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04),
+    0px 4px 16px rgba(51, 51, 51, 0.08);
+  border: 0px solid transparent;
+  border-radius: 4px;
+  width: 100%;
+  color: rgba(17, 17, 17, 0.48);
+}
+.labelSearch {
+  position: relative;
+  margin-right: 20px;
+  width: 78%;
+}
+.labelCountry {
+  position: relative;
+  width: 20.5%;
+}
+
+.icon {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 16px;
+}
+.iconCheck {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 50%;
+  left: 80%;
+  transform: translateY(-50%);
+  margin-left: 16px;
+}
+.iconUnion {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 50%;
+  left: 70%;
+  transform: translateY(-50%);
+  margin-left: 16px;
+}
+
+@media screen and (max-width: 568px) {
+  .searchHeader {
+    font-size: 26px;
+  }
+  .iconUnion,
+  .iconCheck {
+    margin-left: 3px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .labelSearch {
+    width: 60%;
+  }
+  .labelCountry {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .inputStylesCountry {
+    padding-left: 0;
+  }
+  .iconUnion,
+  .iconCheck {
+    width: 8px;
+    height: 8px;
+  }
+  .icon {
+    width: 12px;
+    height: 12px;
+  }
+  .labelSearch {
+    width: 50%;
+  }
+  .labelCountry {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .inputStylesCountry,
+  .inputStyles {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 1280px) {
+}

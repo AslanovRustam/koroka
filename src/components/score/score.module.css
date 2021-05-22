@@ -1,0 +1,106 @@
+.scoreCard {
+  position: relative;
+}
+.progress {
+  margin-left: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.userProgress {
+  height: 134px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(17, 17, 17, 0.4) 0%,
+      rgba(17, 17, 17, 0.72) 93.75%
+    ),
+    url(../../images/progress.jpg), url(../../images/BGimage1.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center, bottom 100% right 100%, center;
+  background-size: cover, 46px 24px, cover;
+}
+.avatarImg {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  bottom: -5%;
+  /* transform: translateY(-50%); */
+  margin-left: 20px;
+}
+.avatarName {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  bottom: -15%;
+  margin-left: 88px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.informSection {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-top: 24px;
+  margin-right: 20px;
+}
+.userLabel {
+  margin-bottom: 13px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #111111;
+}
+.scoreInformation {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 32px;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  padding: 1px;
+  margin-right: 6px;
+}
+.scoreTitleItem:not(:last-child) {
+  margin-right: 16px;
+}
+.scoreTitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111111;
+}
+.scoreButton {
+  padding: 10px 20px;
+  margin-right: 28px;
+  border: 1px solid #6e41e2;
+  border-radius: 4px;
+  color: #6e41e2;
+  background: none;
+  cursor: pointer;
+}
+
+.moreButton {
+  border: 0px;
+  padding: 0;
+  background: none;
+  color: #6e41e2;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
