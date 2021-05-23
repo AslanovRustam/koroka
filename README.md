@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-type npm npm start at terminal and wait to open your app
+type npm start at terminal and wait to open your app
 
 ## moving by next page
 
