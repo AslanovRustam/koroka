@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/koroka/static/css/main.3de51ffa.chunk.css",
+    "main.js": "/koroka/static/js/main.f138610b.chunk.js",
+    "main.js.map": "/koroka/static/js/main.f138610b.chunk.js.map",
+    "runtime-main.js": "/koroka/static/js/runtime-main.a46e9c58.js",
+    "runtime-main.js.map": "/koroka/static/js/runtime-main.a46e9c58.js.map",
+    "static/js/2.80696348.chunk.js": "/koroka/static/js/2.80696348.chunk.js",
+    "static/js/2.80696348.chunk.js.map": "/koroka/static/js/2.80696348.chunk.js.map",
+    "static/js/3.4905ac51.chunk.js": "/koroka/static/js/3.4905ac51.chunk.js",
+    "static/js/3.4905ac51.chunk.js.map": "/koroka/static/js/3.4905ac51.chunk.js.map",
+    "index.html": "/koroka/index.html",
+    "static/css/main.3de51ffa.chunk.css.map": "/koroka/static/css/main.3de51ffa.chunk.css.map",
+    "static/js/2.80696348.chunk.js.LICENSE.txt": "/koroka/static/js/2.80696348.chunk.js.LICENSE.txt",
+    "static/media/score.module.css": "/koroka/static/media/image10.6b5802cf.jpg",
+    "static/media/FB.8fb88953.svg": "/koroka/static/media/FB.8fb88953.svg",
+    "static/media/Union.3232919f.svg": "/koroka/static/media/Union.3232919f.svg",
+    "static/media/Unionpen.abaa5977.svg": "/koroka/static/media/Unionpen.abaa5977.svg",
+    "static/media/Unionstudent.f4680f05.svg": "/koroka/static/media/Unionstudent.f4680f05.svg",
+    "static/media/Vector.de505dee.svg": "/koroka/static/media/Vector.de505dee.svg",
+    "static/media/Vectorvideo.e7a30b88.svg": "/koroka/static/media/Vectorvideo.e7a30b88.svg",
+    "static/media/avaAlexa.84089b3a.png": "/koroka/static/media/avaAlexa.84089b3a.png",
+    "static/media/avaDiane.309ffe3b.png": "/koroka/static/media/avaDiane.309ffe3b.png",
+    "static/media/avaKathryn.f4d96f90.png": "/koroka/static/media/avaKathryn.f4d96f90.png",
+    "static/media/avatar.1d7abb21.svg": "/koroka/static/media/avatar.1d7abb21.svg",
+    "static/media/check.ad4b5f1c.svg": "/koroka/static/media/check.ad4b5f1c.svg",
+    "static/media/google.02c988b0.svg": "/koroka/static/media/google.02c988b0.svg",
+    "static/media/loginPage.module.css": "/koroka/static/media/icon-check.c0a78b0a.svg",
+    "static/media/vk.bcd2f2a7.svg": "/koroka/static/media/vk.bcd2f2a7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a46e9c58.js",
+    "static/js/2.80696348.chunk.js",
+    "static/css/main.3de51ffa.chunk.css",
+    "static/js/main.f138610b.chunk.js"
+  ]
+}
