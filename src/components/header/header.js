@@ -1,13 +1,14 @@
-import avatar from "../../images/avatar.png";
 import { ReactComponent as Avatar } from "../../images/avatar.svg";
-
 import s from "./header.module.css";
+
 export default function Header() {
   return (
     <div className={s.headerSection}>
       <div className={s.headerContainer}>
         <div className={s.logoContainer}>
-          <h1 className={s.logo}>Logo</h1>
+          <a href="#">
+            <h1 className={s.logo}>Logo</h1>
+          </a>
         </div>
         <div className={s.headerSectionContainer}>
           <div className={s.headerLinksContainer}>
@@ -29,13 +30,10 @@ export default function Header() {
               </li>
             </ul>
           </div>
-          <div className={s.userContainer}>
+          <a className={s.userContainer} href="#">
             <span className={s.userName}>Michael Browk</span>
             <Avatar className={s.avatar} />
-            {/* <div className={s.avatarContainer}> */}
-            {/* <img src={avatar} alt="avatar" className={s.avatar} /> */}
-            {/* </div> */}
-          </div>
+          </a>
         </div>
       </div>
     </div>

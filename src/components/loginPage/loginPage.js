@@ -55,10 +55,11 @@ export default function LoginPage() {
           </label>
           <label className={s.checkBoxContainer}>
             <input className={s.checkbox} type="checkbox" value="check" />
-            <span className={s.checkboxIcon}></span>I accept the terms of the
-            offer of{" "}
+            <span className={s.checkboxIcon}></span>
+            <span className={s.checkboxPrivacy}>
+              I accept the terms of the offer of
+            </span>
             <a className={s.privacy} href="#">
-              {" "}
               the privacy policy
             </a>
           </label>
@@ -75,6 +76,5 @@ export default function LoginPage() {
         </form>
       </div>
     </div>
-    // </div>
   );
 }

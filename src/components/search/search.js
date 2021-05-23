@@ -22,7 +22,6 @@ export default function Search() {
             <input className={s.inputStyles} placeholder="Search" />
           </label>
           <label className={s.labelCountry}>
-            {/* <input className={s.inputStylesCountry} placeholder=""></input> */}
             <input className={s.inputStylesPlaceholder} placeholder=""></input>
             <span className={s.inputStylesCountry}>Your country</span>
             <span className={s.inputStylesUSA}>USA</span>

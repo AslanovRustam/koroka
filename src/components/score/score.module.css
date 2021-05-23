@@ -148,6 +148,10 @@
   font-size: 16px;
   line-height: 24px;
 }
+.buttonContainer {
+  bottom: 20px;
+  left: 20px;
+}
 
 @media screen and (max-width: 568px) {
   .scoreInformation {
@@ -179,15 +183,19 @@
   }
   .buttonContainer {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .scoreSection {
+    align-items: center;
+  }
+  .buttonContainer {
+    padding-bottom: 20px;
+    padding-left: 20px;
   }
 }
 @media screen and (min-width: 1366px) {
   .scoreContainer {
     flex-wrap: nowrap;
-  }
-  .scoreSection {
-    width: 400px;
   }
 }

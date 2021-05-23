@@ -15,7 +15,7 @@ export default function Score() {
             <div className={s.progressBox}></div>
             <span className={s.progress}>Progress 12%</span>
           </div>
-          <img className={s.avatarImg} src={Alexa} />
+          <img className={s.avatarImg} src={Alexa} alt="Alexa" />
           <span className={s.avatarName}>Alexa</span>
         </div>
         <div className={s.informSection}>
@@ -58,7 +58,7 @@ export default function Score() {
             <div className={s.progressBox}></div>
             <span className={s.progress}>Progress 12%</span>
           </div>
-          <img className={s.avatarImg} src={Kathryn} />
+          <img className={s.avatarImg} src={Kathryn} alt="Kathryn" />
           <span className={s.avatarName}>Kathryn Nguyen</span>
         </div>
         <div className={s.informSection}>
@@ -101,7 +101,7 @@ export default function Score() {
             <div className={s.progressBox}></div>
             <span className={s.progress}>Progress 12%</span>
           </div>
-          <img className={s.avatarImg} src={Diane} />
+          <img className={s.avatarImg} src={Diane} alt="Diane" />
           <span className={s.avatarName}>Diane Miles</span>
         </div>
         <div className={s.informSection}>
