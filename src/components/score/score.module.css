@@ -1,7 +1,19 @@
+.scoreContainer {
+  margin-left: auto;
+  margin-right: auto;
+}
+.scoreSection {
+  position: relative;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04),
+    0px 4px 16px rgba(51, 51, 51, 0.08);
+  border-radius: 8px;
+}
 .scoreCard {
   position: relative;
 }
 .progress {
+  position: relative;
   margin-left: 20px;
   font-style: normal;
   font-weight: normal;
@@ -9,34 +21,58 @@
   line-height: 20px;
   color: #ffffff;
 }
-.userProgress {
+.userProgress,
+.userProgressKathryn,
+.userProgressDiane {
   height: 134px;
   margin-left: auto;
   margin-right: auto;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  overflow: hidden;
   background-image: linear-gradient(
       180deg,
       rgba(17, 17, 17, 0.4) 0%,
       rgba(17, 17, 17, 0.72) 93.75%
     ),
-    url(../../images/progress.jpg), url(../../images/BGimage1.jpg);
-
+    url(../../images/BGimage1.jpg);
   background-repeat: no-repeat;
-  background-position: center, bottom 100% right 100%, center;
-  background-size: cover, 46px 24px, cover;
+  background-position: center;
+  background-size: cover;
+}
+.userProgressKathryn {
+  background-image: linear-gradient(
+      180deg,
+      rgba(17, 17, 17, 0.4) 0%,
+      rgba(17, 17, 17, 0.72) 93.75%
+    ),
+    url(../../images/image10.jpg);
+}
+.userProgressDiane {
+  background-image: linear-gradient(
+      180deg,
+      rgba(17, 17, 17, 0.4) 0%,
+      rgba(17, 17, 17, 0.72) 93.75%
+    ),
+    url(../../images/BGimage3.jpg);
+}
+.progressBox {
+  position: absolute;
+  width: 46px;
+  height: 24px;
+  top: 0;
+  border-top-left-radius: 8px;
+  background-color: #27ae60;
 }
 .avatarImg {
   position: absolute;
   width: 56px;
   height: 56px;
   bottom: -5%;
-  /* transform: translateY(-50%); */
   margin-left: 20px;
 }
 .avatarName {
   position: absolute;
-  width: 56px;
   height: 56px;
   bottom: -15%;
   margin-left: 88px;
@@ -73,9 +109,17 @@
   padding: 1px;
   margin-right: 6px;
 }
-.scoreTitleItem:not(:last-child) {
+.scoreTitleItem,
+.scoreListItem {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.scoreTitleItem:not(:last-child),
+.scoreListItem:not(:last-child) {
   margin-right: 16px;
 }
+
 .scoreTitle {
   font-style: normal;
   font-weight: normal;
@@ -103,4 +147,47 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
+}
+
+@media screen and (max-width: 568px) {
+  .scoreInformation {
+    flex-direction: column;
+  }
+  .icon {
+    width: 36px;
+    height: 36px;
+    padding: 1px;
+    margin-right: 6px;
+  }
+  .scoreTitle {
+    font-size: 20px;
+    line-height: 1.5px;
+    color: #111111;
+  }
+}
+@media screen and (min-width: 768px) {
+  .scoreContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .scoreSection {
+    margin: 5px;
+    width: 400px;
+    height: 347px;
+  }
+  .buttonContainer {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .scoreContainer {
+    flex-wrap: nowrap;
+  }
+  .scoreSection {
+    width: 400px;
+  }
 }

@@ -89,8 +89,7 @@
   background-color: #6e41e2;
   border-radius: 2px;
 }
-.avatarContainer {
-}
+
 @media screen and (max-width: 568px) {
   .headerLinkItem,
   .headerLinkItemActive,

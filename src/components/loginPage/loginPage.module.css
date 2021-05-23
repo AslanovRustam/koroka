@@ -111,6 +111,7 @@
 .linkIcon {
   width: 36px;
   height: 36px;
+  padding: 8px;
 }
 
 .signContainer {
@@ -210,6 +211,10 @@
   border-radius: 4px;
   width: 100%;
   color: rgba(17, 17, 17, 0.48);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
   /* display: block; */
 }
 
